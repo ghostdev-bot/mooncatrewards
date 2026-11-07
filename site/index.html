@@ -1,0 +1,13 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; connect-src 'self'; style-src 'self'; script-src 'self'">
+<title>Mooncat Rewards Checker (unofficial)</title><meta name="description" content="Where $MOONCAT creator fees go: on-chain fee splits, treasury balance and every payout cycle.">
+<link rel="stylesheet" href="css/app.css"></head><body>
+<header><h1>🌙 Mooncat Rewards Checker</h1><p class="sub">Where the $MOONCAT creator fees go. Every number is read from Solana and links to Solscan. Unofficial.</p>
+<nav><button data-t="ov" class="on">Overview</button><button data-t="fl">Fee Flow</button><button data-t="cy">Payout Cycles</button><button data-t="wa">Wallet Check</button></nav></header>
+<main>
+<section id="ov"></section><section id="fl" hidden></section><section id="cy" hidden></section>
+<section id="wa" hidden><h2>Check a wallet</h2><p class="muted">Paste a Solana address to see every SOL payout it got from the Rewards Treasury.</p>
+<form id="wf"><input id="wi" placeholder="Solana wallet address" autocomplete="off" spellcheck="false"><button>Check</button></form><div id="wr"></div><h3>Top recipients</h3><div id="lead"></div></section>
+</main>
+<footer><p>Not affiliated with the Mooncat team or Pump.fun. Read-only, no wallet connect. Not financial advice. Official site: <a href="https://www.thecatmoons.com" rel="noopener">thecatmoons.com</a>. <span id="upd"></span></p></footer>
+<script src="js/app.js"></script></body></html>
